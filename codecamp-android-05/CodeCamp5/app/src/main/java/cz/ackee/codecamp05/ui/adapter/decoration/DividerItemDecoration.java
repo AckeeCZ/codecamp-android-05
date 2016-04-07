@@ -1,4 +1,4 @@
-package cz.ackee.codecamp04.ui.adapter.decoration;
+package cz.ackee.codecamp05.ui.adapter.decoration;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,7 +7,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import cz.ackee.codecamp04.R;
+import cz.ackee.codecamp05.R;
 
 /**
  * Created by Jan Stanek[jan.stanek@ackee.cz] on {31.3.16}

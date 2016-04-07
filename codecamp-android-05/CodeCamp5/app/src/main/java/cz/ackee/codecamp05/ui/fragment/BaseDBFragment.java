@@ -1,8 +1,8 @@
-package cz.ackee.codecamp04.ui.fragment;
+package cz.ackee.codecamp05.ui.fragment;
 
 import android.support.v4.app.Fragment;
 
-import cz.ackee.codecamp04.db.DatabaseHelper;
+import cz.ackee.codecamp05.db.DatabaseHelper;
 
 /**
  * Base fragment that has access to DatabaseActivity

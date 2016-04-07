@@ -1,14 +1,14 @@
-package cz.ackee.codecamp04.ui.activity;
+package cz.ackee.codecamp05.ui.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import cz.ackee.codecamp04.R;
-import cz.ackee.codecamp04.db.DatabaseHelper;
-import cz.ackee.codecamp04.ui.fragment.BaseDBFragment;
-import cz.ackee.codecamp04.ui.fragment.UserListFragment;
+import cz.ackee.codecamp05.R;
+import cz.ackee.codecamp05.db.DatabaseHelper;
+import cz.ackee.codecamp05.ui.fragment.BaseDBFragment;
+import cz.ackee.codecamp05.ui.fragment.UserListFragment;
 
 /**
  * Activity that holds reference to SqliteOpenHelper and switches fragments inside

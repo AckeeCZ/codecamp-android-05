@@ -1,4 +1,4 @@
-package cz.ackee.codecamp04.domain;
+package cz.ackee.codecamp05.domain;
 
 import android.content.ContentValues;
 import android.provider.BaseColumns;

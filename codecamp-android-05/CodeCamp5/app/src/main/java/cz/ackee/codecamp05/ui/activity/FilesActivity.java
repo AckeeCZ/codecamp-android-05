@@ -1,9 +1,6 @@
-package cz.ackee.codecamp04.ui.activity;
+package cz.ackee.codecamp05.ui.activity;
 
 import android.os.Bundle;
-import android.os.Environment;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -13,12 +10,11 @@ import android.widget.TextView;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import cz.ackee.codecamp04.R;
+import cz.ackee.codecamp05.R;
 
 /**
  * Activity that shows example usage of retain fragments

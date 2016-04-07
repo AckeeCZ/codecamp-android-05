@@ -1,4 +1,4 @@
-package cz.ackee.codecamp04.ui.fragment;
+package cz.ackee.codecamp05.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import cz.ackee.codecamp04.R;
-import cz.ackee.codecamp04.domain.User;
+import cz.ackee.codecamp05.R;
+import cz.ackee.codecamp05.domain.User;
 
 /**
  * Fragment with form for adding user

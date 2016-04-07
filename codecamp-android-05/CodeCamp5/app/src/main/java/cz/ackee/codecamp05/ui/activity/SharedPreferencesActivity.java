@@ -1,10 +1,8 @@
-package cz.ackee.codecamp04.ui.activity;
+package cz.ackee.codecamp05.ui.activity;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +12,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import cz.ackee.codecamp04.R;
+import cz.ackee.codecamp05.R;
 
 /**
  * Activity that shows example usage of retain fragments

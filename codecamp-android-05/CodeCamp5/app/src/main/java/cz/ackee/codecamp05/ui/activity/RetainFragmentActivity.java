@@ -1,8 +1,6 @@
-package cz.ackee.codecamp04.ui.activity;
+package cz.ackee.codecamp05.ui.activity;
 
 import android.os.Bundle;
-import android.os.Environment;
-import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import cz.ackee.codecamp04.R;
+import cz.ackee.codecamp05.R;
 
 /**
  * Activity that shows example usage of retain fragments

@@ -1,4 +1,4 @@
-package cz.ackee.codecamp04.ui.fragment;
+package cz.ackee.codecamp05.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,11 +13,11 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import cz.ackee.codecamp04.R;
-import cz.ackee.codecamp04.db.DatabaseHelper;
-import cz.ackee.codecamp04.domain.User;
-import cz.ackee.codecamp04.ui.adapter.UsersAdapter;
-import cz.ackee.codecamp04.ui.adapter.decoration.DividerItemDecoration;
+import cz.ackee.codecamp05.R;
+import cz.ackee.codecamp05.db.DatabaseHelper;
+import cz.ackee.codecamp05.domain.User;
+import cz.ackee.codecamp05.ui.adapter.UsersAdapter;
+import cz.ackee.codecamp05.ui.adapter.decoration.DividerItemDecoration;
 
 /**
  * Fragment that is showing list of users

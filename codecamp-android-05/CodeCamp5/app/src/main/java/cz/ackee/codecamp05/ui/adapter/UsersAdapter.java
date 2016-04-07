@@ -1,4 +1,4 @@
-package cz.ackee.codecamp04.ui.adapter;
+package cz.ackee.codecamp05.ui.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import cz.ackee.codecamp04.R;
-import cz.ackee.codecamp04.domain.User;
+import cz.ackee.codecamp05.R;
+import cz.ackee.codecamp05.domain.User;
 
 /**
  * Adapter for list of users

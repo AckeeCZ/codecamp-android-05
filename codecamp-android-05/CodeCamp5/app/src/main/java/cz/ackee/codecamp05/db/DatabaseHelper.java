@@ -1,4 +1,4 @@
-package cz.ackee.codecamp04.db;
+package cz.ackee.codecamp05.db;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-import cz.ackee.codecamp04.domain.User;
+import cz.ackee.codecamp05.domain.User;
 
 /**
  * Database helper for managing our access operations

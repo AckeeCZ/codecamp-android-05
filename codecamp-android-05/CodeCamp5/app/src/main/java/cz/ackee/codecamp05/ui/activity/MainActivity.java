@@ -1,11 +1,10 @@
-package cz.ackee.codecamp04.ui.activity;
+package cz.ackee.codecamp05.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -15,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-import cz.ackee.codecamp04.R;
+import cz.ackee.codecamp05.R;
 
 /**
  * Created by Jan Stanek[jan.stanek@ackee.cz] on {31.3.16}
