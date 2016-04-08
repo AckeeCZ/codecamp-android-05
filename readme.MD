@@ -18,6 +18,6 @@ Odkazy
 
 * Moje starší [prezentace](https://www.dropbox.com/s/3ips1ph5zhnk3s9/Workshop%20-%20database.pdf?dl=0) na databáze kterou jsem měl pro bývalé kolegy - 
 
-* Prezentace o [debugování](https://www.dropbox.com/s/3ips1ph5zhnk3s9/Workshop%20-%20database.pdf?dl=0)
+* Prezentace o [debugování](https://drive.google.com/file/d/0B9Z3NshrFzMddHFtTXNSbjBSTWM/view?usp=sharing)
 
 * [Android training](http://developer.android.com/training/basics/data-storage/databases.html)
