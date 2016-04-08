@@ -40,7 +40,7 @@ public class DatabaseActivity extends AppCompatActivity implements BaseDBFragmen
     public void replaceFragment(Fragment fragment) {
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_container, fragment, fragment.getClass().getName())
+                .add(R.id.fragment_container, fragment, fragment.getClass().getName())
                 .addToBackStack(null)
                 .commitAllowingStateLoss();
     }

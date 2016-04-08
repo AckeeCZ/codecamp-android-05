@@ -37,6 +37,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public List<User> getAllUsers() {
         List<User> result = new ArrayList<>();
         Cursor c = getWritableDatabase().query(User.TABLE_NAME, null, null, null, null, null, null);
+//        getWritableDatabase().rawQuery("SELECT * FROM USERS WHERE NAME LIKE ?", new String [] {"neco"});
         if (c.moveToFirst()) {
             do {
                 String name = c.getString(c.getColumnIndex(User.COL_FIRST_NAME));
@@ -50,7 +51,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     public void insertUser(User user) {
-        getWritableDatabase().insert(User.TABLE_NAME, null, user.getContentValues());
+       long id = getWritableDatabase().insert(User.TABLE_NAME, null, user.getContentValues());
+
     }
 
     public void updateUser(long userId, User user) {

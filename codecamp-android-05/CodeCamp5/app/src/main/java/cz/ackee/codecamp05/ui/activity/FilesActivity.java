@@ -61,20 +61,21 @@ public class FilesActivity extends AppCompatActivity {
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(f);
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fis));
+            String receiveString;
+            StringBuilder stringBuilder = new StringBuilder();
+
+            while ((receiveString = bufferedReader.readLine()) != null) {
+                stringBuilder.append(receiveString);
+            }
+
+            return stringBuilder.toString();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             if (fis != null) {
                 try {
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(fis));
-                    String receiveString;
-                    StringBuilder stringBuilder = new StringBuilder();
-
-                    while ((receiveString = bufferedReader.readLine()) != null) {
-                        stringBuilder.append(receiveString);
-                    }
                     fis.close();
-                    return stringBuilder.toString();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

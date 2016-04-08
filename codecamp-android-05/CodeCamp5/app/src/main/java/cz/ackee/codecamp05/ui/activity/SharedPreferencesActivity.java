@@ -74,7 +74,7 @@ public class SharedPreferencesActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (isFinishing()) {//save time only if activity is finishing
+        if (isFinishing()) { //save time only if activity is finishing
             getPreferences().edit().putLong(LAST_RUN_KEY, System.currentTimeMillis()).apply();
         }
     }

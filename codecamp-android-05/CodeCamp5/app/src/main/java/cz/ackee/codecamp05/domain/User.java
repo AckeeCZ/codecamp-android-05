@@ -14,6 +14,7 @@ public class User {
     public static final String COL_AGE = "age";
     public static final String COL_ID = BaseColumns._ID;
     public static final String TABLE_NAME = "users";
+
     public static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " (" +
             COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
             COL_FIRST_NAME + " TEXT, " +
